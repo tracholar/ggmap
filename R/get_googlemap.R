@@ -254,7 +254,7 @@ get_googlemap <- function(
 
 
   # url segments
-  base_url <- "http://maps.googleapis.com/maps/api/staticmap?"
+  base_url <- "https://maps.googleapis.com/maps/api/staticmap?"
   center_url <- if(all(is.numeric(center))){ # lon/lat specification
     center <- round(center, digits = 6)
     lon <- center[1]; lat <- center[2]
